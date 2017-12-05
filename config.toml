@@ -19,7 +19,7 @@ paginate = 15
 [params]
   Keywords = "sysadmin, devops, docker, azure, powershell, minecraft"
   Description = "Congratulations. You are being rescued. Please do not resist."
-  Avatar = "img/avatar.jpg"
+  Avatar = "img/avatar.png"
   SelfIntro = "Congratulations. You are being rescued. Please do not resist."
   Email = "vaughan.lapsley@gmail.com"
 
