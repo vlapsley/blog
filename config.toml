@@ -1,0 +1,28 @@
+# config.toml
+baseurl = "https://droids.work/"
+title = "droids.work"
+theme = "vec"
+languageCode = "en-us"
+paginate = 15
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "post"
+    weight = 0
+    url = "/post"
+  [[menu.main]]
+    name = "contact"
+    weight = 1
+    url = "/contact"
+
+[params]
+  Keywords = "sysadmin, devops, docker, azure, powershell, minecraft"
+  Description = "Congratulations. You are being rescued. Please do not resist."
+  Avatar = "img/avatar.jpg"
+  SelfIntro = "Congratulations. You are being rescued. Please do not resist."
+  Email = "vaughan.lapsley@gmail.com"
+
+  GithubID = "vlapsley"
+  TwitterID = "vlapsley"
+  LinkedInID = "vlapsley"
