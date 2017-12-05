@@ -1,45 +1,21 @@
-baseurl = "https://droids.work/"
-theme = "geo"
-relativeURLs = false
-languageCode = "en-us"
-title = "droids.work"
-disqusShortname = "shortcode-here"
-paginate = 5
+# hostname (and path) to the root, e.g. http://spf13.com/
+baseURL =                  "https://droids.work/"
 
-[taxonomies]
-	tag = "tags"
-	tutorial = "tutorials"
+# site title
+title =                    "droids.work"
+
+# maximum number of items in the RSS feed
+rssLimit =                 15
+
+# true: use pygments-css or false: color-codes directly
+pygmentsUseClasses =       true
+
 
 [params]
-	showglobe = true
-	favicon = "favicon.ico"
-	analytics = "code-here"
-	profilepic = "img/avatar.png"
-
-	header = "Congratulations. You are being rescued. Please do not resist."
-	title = "Vaughan Lapsley"
-	subtitle = "Droid"
-
-	# Social buttons for sidebar
-	# Each of these are optional
-	[[params.socialbuttons]]
-	faicon = "github"
-	url = "https://github.com/vlapsley"
-	[[params.socialbuttons]]
-	faicon = "twitter"
-	url = "https://twitter.com/vlapsley"
-	[[params.socialbuttons]]
-	faicon = "linkedin"
-	url = "https://linkedin.com/in/vlapsley"
-
-	[[params.navlinks]]
-	name = "About Me"
-	url = "about/"
-	
-	[[params.navlinks]]
-	name = "Blog"
-	url = "posts/"
-	
-	[[params.navlinks]]
-	name = "Contact"
-	url = "contact/"
+  subtitle =               "There is a 97.6 percent chance of failure."
+  author =                 "Vaughan Lapsley"
+  description =            "Congratulations. You are being rescued. Please do not resist."
+  keywords =               "systems administration, amazon aws, devops, azure, minecraft, powershell, docker"
+  githubURL =              "https://github.com/vlapsley"
+  twitterURL =             "https://twitter.com/vlapsley"
+  linkedinURL =            "https://linkedin.com/in/vlapsley"
