@@ -1,28 +1,45 @@
-# config.toml
 baseurl = "https://droids.work/"
-title = "droids.work"
-theme = "vec"
+theme = "geo"
+relativeURLs = false
 languageCode = "en-us"
-paginate = 15
+title = "droids.work"
+disqusShortname = "shortcode-here"
+paginate = 5
 
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "post"
-    weight = 0
-    url = "/post"
-  [[menu.main]]
-    name = "contact"
-    weight = 1
-    url = "/contact"
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
 
 [params]
-  Keywords = "sysadmin, devops, docker, azure, powershell, minecraft"
-  Description = "Congratulations. You are being rescued. Please do not resist."
-  Avatar = "img/avatar.png"
-  SelfIntro = "Congratulations. You are being rescued. Please do not resist."
-  Email = "vaughan.lapsley@gmail.com"
+	showglobe = true
+	favicon = "favicon.ico"
+	analytics = "code-here"
+	profilepic = "img/avatar.png"
 
-  GithubID = "vlapsley"
-  TwitterID = "vlapsley"
-  LinkedInID = "vlapsley"
+	header = "Congratulations. You are being rescued. Please do not resist."
+	title = "Vaughan Lapsley"
+	subtitle = "Droid"
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/vlapsley"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/vlapsley"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://linkedin.com/in/vlapsley"
+
+	[[params.navlinks]]
+	name = "About Me"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = "posts/"
+	
+	[[params.navlinks]]
+	name = "Contact"
+	url = "contact/"
