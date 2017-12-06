@@ -14,16 +14,15 @@
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/css/style.css" | absURL }}" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
-  <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
-  <!-- Icons -->
+  <!-- JS -->
+  <script src="https://use.fontawesome.com/212ed12329.js"></script>
+
+  <!-- Icon -->
   <link rel="icon" href="{{ "/img/favicon.ico" | absURL }}" type="image/x-icon">
 
   <!-- RSS -->
-  {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-  {{ end }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 </head>
 
 <body>

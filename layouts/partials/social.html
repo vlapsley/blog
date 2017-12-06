@@ -1,7 +1,8 @@
-<div id="social" class="text-center">
-  {{ range .Site.Params.socialbuttons }}
-    <a href="{{ .url }}"><i class="fa fa-{{ .faicon }} fa-2x"></i></a>
-  {{ end }}
-
-  {{ if isset .Site.Params "email" }}<a href="mailto:{{.Site.Params.email}}"><i class="fa fa-envelope-o fa-2x"></i></a>{{ end }}
+<div class="body">
+<span class="text-center">
+    <a href="mailto:{{.Site.Params.email}}"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+    {{ range .Site.Params.socialbuttons }}
+      <a href="{{ .url }}"><i class="fa fa-{{ .faicon }} fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+  </span>
 </div>
