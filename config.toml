@@ -1,21 +1,26 @@
 # hostname (and path) to the root, e.g. http://spf13.com/
-baseURL =                  "https://droids.work/"
+baseURL =             "https://droids.work/"
 
 # site title
-title =                    "droids.work"
+title =               "droids.work"
 
 # maximum number of items in the RSS feed
-rssLimit =                 15
+rssLimit =            15
 
 # true: use pygments-css or false: color-codes directly
-pygmentsUseClasses =       true
+pygmentsUseClasses =  true
 
 
 [params]
-  subtitle =               "There is a 97.6 percent chance of failure."
-  author =                 "Vaughan Lapsley"
-  description =            "Congratulations. You are being rescued. Please do not resist."
-  keywords =               "systems administration, amazon aws, devops, azure, minecraft, powershell, docker"
-  githubURL =              "https://github.com/vlapsley"
-  twitterURL =             "https://twitter.com/vlapsley"
-  linkedinURL =            "https://linkedin.com/in/vlapsley"
+  subtitle =          "There is a 97.6 percent chance of failure."
+  author =            "Vaughan Lapsley"
+  description =       "Congratulations. You are being rescued. Please do not resist."
+  keywords =          "system administration, amazon aws, devops, azure, minecraft, powershell, docker"
+  githubURL =         "https://github.com/vlapsley"
+  twitterURL =        "https://twitter.com/vlapsley"
+  linkedinURL =       "https://linkedin.com/in/vlapsley"
+  disqusShortname =   "vlapsley"
+
+[taxonomies]
+  tag =               "tags"
+  category =          "categories"
