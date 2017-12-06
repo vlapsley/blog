@@ -14,11 +14,20 @@ pygmentsUseClasses =  true
 [params]
   subtitle =          "There is a 97.6 percent chance of failure."
   author =            "Vaughan Lapsley"
+  email =             "vaughan.lapsley@gmail.com"
   description =       "Congratulations. You are being rescued. Please do not resist."
   keywords =          "system administration, amazon aws, devops, azure, minecraft, powershell, docker"
-  githubURL =         "https://github.com/vlapsley"
+  # Social buttons
+  [[params.socialbuttons]]
+  faicon =            "github"
+  url =               "https://github.com/vlapsley"
+  [[params.socialbuttons]]
+  faicon =            "twitter"
   twitterURL =        "https://twitter.com/vlapsley"
+  [[params.socialbuttons]]
+  faicon =            "linkedin"
   linkedinURL =       "https://linkedin.com/in/vlapsley"
+
   disqusShortname =   "vlapsley"
 
 [taxonomies]

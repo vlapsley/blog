@@ -5,6 +5,7 @@
   <div class="container">
       <span class="copyright">&copy; {{ if eq $dateMissing true }}{{ .Site.LastChange.Format "2006" }}{{ else }}{{ .Date.Format "2006" }} {{ end }} {{ .Site.Title }} - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
       <span class="copyright">[<a href="https://gohugo.io/" title="Hugo | A Fast and Flexible Website Generator">Hugo {{ .Hugo.Version }}</a>]</span>
+      <span class="copyright"><a href="{{ .URL }}" type="application/rss+xml" target="_blank"><i class="fa fa-rss"></i></a></span>
     </div>
 </footer>
 

@@ -1,5 +1,7 @@
 +++
 title = "About Me"
+tags = ["me"]
+social = true
 +++
 
 Nerd. Droid. @Work.

@@ -2,6 +2,7 @@
 
 <main role="main" class="article">
   {{ partial "article.html" . }}
+  {{ if .Params.social }}{{ partial "social.html" . }}{{ end }}
 </main>
 
 {{ if .Site.DisqusShortname }}
