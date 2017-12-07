@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
 
   <!-- JS -->
-  <script src="https://use.fontawesome.com/212ed12329.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 
   <!-- Icon -->
   <link rel="icon" href="{{ "/img/favicon.ico" | absURL }}" type="image/x-icon">
@@ -35,7 +35,7 @@
       {{ range .Site.Menus.main.ByWeight }}
       <a class="nav" title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
-      <a class="nav" href="{{ "/index.xml" | absURL }}" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+      <a class="nav" href="{{ "/index.xml" | absURL }}" target="_blank" type="application/rss+xml" title="RSS"><i class="fas fa-rss"></i></a>
     </span>
   </div>
 </header>

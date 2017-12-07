@@ -5,7 +5,7 @@ baseURL =             "https://droids.work/"
 title =               "droids.work"
 
 # maximum number of items in the RSS feed
-rssLimit =            15
+rssLimit =            10
 
 # true: use pygments-css or false: color-codes directly
 pygmentsUseClasses =  true
@@ -26,10 +26,10 @@ paginatePath =        "page"
   disqusShortname =   "vlapsley"
   # Social buttons
   [[params.socialbuttons]]
-  faicon =            "github"
+  faicon =            "github-square"
   url =               "https://github.com/vlapsley"
   [[params.socialbuttons]]
-  faicon =            "twitter"
+  faicon =            "twitter-square"
   url =               "https://twitter.com/vlapsley"
   [[params.socialbuttons]]
   faicon =            "linkedin"
