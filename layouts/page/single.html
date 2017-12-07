@@ -4,8 +4,8 @@
   <article class="single" itemscope itemtype="http://schema.org/BlogPosting">
     <h1 class="headline" itemprop="headline">{{ .Title }}</h1>
     <section class="body" itemprop="articleBody">
-      {{ .Content }}
-      {{ if .Params.social }}{{ partial "social.html" . }}{{ end }}
+        {{ if .Params.social }}{{ partial "social.html" . }}{{ end }}
+        {{ .Content }}
     </section>
   </article>
 </main>

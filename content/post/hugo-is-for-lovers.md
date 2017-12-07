@@ -1,18 +1,22 @@
 +++
-title = "Hugo is for lovers"
-date = "2015-08-03T13:39:46+02:00"
+title = "Getting Started with Hugo"
+date = "2017-12-07"
+description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+categories = ["web development"]
+tags = ["hugo"]
 toc = true
 comments = true
+draft = false
 +++
 
 ## Step 1. Install Hugo
 
-Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the
+Goto [hugo releases](https://github.com/gohugoio/hugo/releases) and download the
 appropriate version for your os and architecture.
 
 Save it somewhere specific as we will be using it in the next step.
 
-More complete instructions are available at [installing hugo](/overview/installing/)
+More complete instructions are available at [installing hugo](https://gohugo.io/getting-started/installing/)
 
 ## Step 2. Build the Docs
 
@@ -21,14 +25,14 @@ you are reading right now.
 
 Follow the following steps:
 
- 1. Clone the [hugo repository](http://github.com/spf13/hugo)
- 2. Go into the repo
- 3. Run hugo in server mode and build the docs
- 4. Open your browser to http://localhost:1313
+ 1. Clone the [hugo repository](http://github.com/gohugoio/hugo)
+ 1. Go into the repo
+ 1. Run hugo in server mode and build the docs
+ 1. Open your browser to http://localhost:1313
 
 Corresponding pseudo commands:
 
-    git clone https://github.com/spf13/hugo
+    git clone https://github.com/gohugoio/hugo
     cd hugo
     /path/to/where/you/installed/hugo server --source=./docs
     > 29 pages created
@@ -53,7 +57,6 @@ Now we are going to run hugo again, but this time with hugo in watch mode.
     > Watching for changes in /Users/spf13/Code/hugo/docs/content
     > Press ctrl+c to stop
 
-
 Open your [favorite editor](http://vim.spf13.com) and change one of the source
 content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
 
@@ -71,7 +74,7 @@ Change and save this file.. Notice what happened in your terminal.
 
 Refresh the browser and observe that the typo is now fixed.
 
-Notice how quick that was. Try to refresh the site before it's finished building.. I double dare you.
+Notice how quick that was. Try to refresh the site before it's finished building... I double dare you.
 Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.
 
 ## Step 4. Have fun

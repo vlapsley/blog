@@ -3,10 +3,11 @@
 
 <footer>
   <div class="container">
-      <span class="copyright">&copy; {{ if eq $dateMissing true }}{{ .Site.LastChange.Format "2006" }}{{ else }}{{ .Date.Format "2006" }} {{ end }} {{ .Site.Title }} - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
-      <span class="copyright">[<a href="https://gohugo.io/" title="Hugo | A Fast and Flexible Website Generator">Hugo {{ .Hugo.Version }}</a>]</span>
-      <span class="copyright"><a href="{{ "/index.xml" | absURL }}" target="_blank" type="application/rss+xml" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
-    </div>
+      <span class="copyright">
+        &copy; {{ if eq $dateMissing true }}{{ .Site.LastChange.Format "2006" }}{{ else }}{{ .Date.Format "2006" }} {{ end }} {{ .Site.Title }} - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+        [<a href="https://gohugo.io/" title="Hugo | A Fast and Flexible Website Generator">Hugo {{ .Hugo.Version }}</a>]
+      </span>
+  </div>
 </footer>
 
 </body>

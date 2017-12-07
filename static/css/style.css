@@ -147,8 +147,16 @@ header a.path {
   color: #6699cc;
 }
 
+header a.nav {
+  color: #d27b53;
+}
+
 header span.caret {
   color: #f2f0ec;
+}
+
+header span.right {
+  float:right;
 }
 
 /* Footer Layout */
