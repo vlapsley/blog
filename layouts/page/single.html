@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<main role="main" class="article">
+  <article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="headline" itemprop="headline">{{ .Title }}</h1>
+    <section class="body" itemprop="articleBody">
+      {{ .Content }}
+      {{ if .Params.social }}{{ partial "social.html" . }}{{ end }}
+    </section>
+  </article>
+</main>
+
+{{ partial "footer.html" . }}

@@ -31,6 +31,11 @@
   <div class="container clearfix">
     <a class="path" href="{{ .Site.BaseURL }}">[{{ .Site.Title }}]</a>
     <span class="caret"># _</span>
+    <span class="caret">
+      {{ range .Site.Menus.main.ByWeight }}
+      <a class="path" title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </span>
     <div class="right">
       {{ range $i, $page := (where .Site.Pages "Section" "pages") }}
         {{ if not (eq $i 0) }}|{{ end }}

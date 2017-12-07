@@ -34,3 +34,13 @@ pygmentsUseClasses =  true
 [taxonomies]
   tag =               "tags"
   category =          "categories"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/post/"
+  weight = 1
+
+[[menu.main]]
+  name = "About Me"
+  url = "/page/about/"
+  weight = 2
