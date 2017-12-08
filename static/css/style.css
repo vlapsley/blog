@@ -175,10 +175,16 @@ footer a {
 
 .page-not-found h2 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   color: #a09f93;
   margin-bottom: 64px;
   margin-bottom: 4rem;
+}
+
+.page-not-found img {
+  display: block;
+  margin: auto;
+  border-radius: 3px;
 }
 
 @media (max-width: 52em) {
@@ -187,7 +193,7 @@ footer a {
   }
 
   .page-not-found h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
