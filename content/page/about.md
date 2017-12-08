@@ -9,7 +9,7 @@ social = true
 
 ![Did You Know That Wasn't Me?][1]
 
-Hello. I am a Computer Operations droid, model VL-24. I am also known as Vaughan.
+Hello. This is a Computer Operations droid, model VL-24. He is also known by the friendly name, Vaughan.
 
 Vaughan resides in Melbourne, Australia. It is quite habitable, although some locals are somewhat [dangerous](https://en.wikipedia.org/wiki/Tiger_snake "Ssssss!").
 
@@ -26,5 +26,13 @@ Other topics may [creep](https://minecraft.gamepedia.com/Creeper "That's a very 
 ### Droids?
 
 Droids are awesome. The VL-24 has built two small droids to assist with downtime - the IL-8 'Isabella' and AL-4 'Audrey'. They are very chatty and entertaining, but do require regular programming and maintenance.
+
+### Tech
+
+* Hosted on Amazon AWS S3 behind CloudFront CDN.
+* Built using [Hugo](https://gohugo.io/), a fast and flexible website generator.
+* Hugo theme based upon [Base16](https://github.com/htdvisser/hugo-base16-theme), by Hylke Visser.
+* Color scheme also [Base16](http://chriskempson.com/projects/base16/), by Chris Kempson.
+* A [howto](https://lustforge.com/2016/02/27/hosting-hugo-on-aws/) on hosting a Hugo site with AWS S3.
 
 [1]: /img/avatar.png

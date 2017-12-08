@@ -1,8 +1,8 @@
 <div class="container">
 <span class="text-center">
-    <a href="mailto:{{.Site.Params.email}}"><i class="fas fa-envelope-square"></i></a>
+    <a href="mailto:{{.Site.Params.email}}"><i class="fas fa-envelope-square fa-2x"></i></a>
     {{ range .Site.Params.socialbuttons }}
-      <a href="{{ .url }}"><i class="fab fa-{{ .faicon }}"></i></a>
+      <a href="{{ .url }}"><i class="fab fa-{{ .faicon }} fa-2x"></i></a>
     {{ end }}
   </span>
 </div>
