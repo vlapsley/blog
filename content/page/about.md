@@ -7,7 +7,7 @@ social = true
 
 ## Nerd. Droid. @Work.
 
-![Did You Know That Wasn't Me?][1]
+![alt text][1]
 
 Hello. This is a Computer Operations droid, model VL-24. He is also known by the friendly name, Vaughan.
 
@@ -35,4 +35,4 @@ Droids are awesome. The VL-24 has built two small droids to assist with downtime
 * Color scheme also [Base16](http://chriskempson.com/projects/base16/), by Chris Kempson.
 * A [howto](https://lustforge.com/2016/02/27/hosting-hugo-on-aws/) on hosting a Hugo site with AWS S3.
 
-[1]: /img/avatar.png
+[1]: /img/avatar.png "Did You Know That Wasn't Me?"
