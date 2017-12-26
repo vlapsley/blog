@@ -15,7 +15,7 @@ So my PVR (Personal Video Recorder) is bricked. It powers on but won't start the
 
 It's a Beyonwiz T3 and I've had it about three and a half years. It's been great. We use it recording some free to air TV, but mostly as a media player.
 
-But I stumbled upon [this thread](Beyonwiz RHS-700 MODEL PSU Repair (T3) - UPDATE 18-12-2016) with instructions on how to replace capacitors in the power supply.
+But I stumbled upon [this thread](http://www.beyonwiz.com.au/forum/viewtopic.php?f=53&t=10830) with instructions on how to replace capacitors in the power supply.
 ![alt text][1]
 
 ## Where's my credit card?
