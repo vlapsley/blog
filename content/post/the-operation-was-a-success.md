@@ -17,7 +17,7 @@ But after going through the Beyonwiz forums further, I found that some users had
 
 ## The operation was a success
 
-I removed the faulty capacitor. You can see by the brown colouring on the top and slight bulging that it is indeed faulty.
+Broke out the soldering iron and removed the faulty capacitor. You can see by the brown colouring on top and slight bulging that it is indeed faulty.
 ![alt text][1]
 
 I then soldered in the new capacitor. I can't tell you how good my soldering was. It was like back being a kid in the 1980s with [Dick Smith Fun Way kits](https://www.google.com.au/search?tbm=isch&as_q=dick+smith+electronics+kits+fun+way).
@@ -30,7 +30,7 @@ I gave the unit a clean, screwed it back together and plugged it back in.
 Not only was the operation a success, the patient survived too. The word "Booting..." appeared on the LCD display and I knew I had triumphed.
 ![alt text][3]
 
-Little Audrey summed it up best: "Good job Daddy!" So flippin' proud.
+Little Audrey summed it up best: "Good job Daddy!" So flippin' proud of myself. DIY done right is very satisfying.
 
 [1]: /img/faulty_capacitor.jpg "Faulty capacitor"
 [2]: /img/fixed_psu.jpg "The fixed PSU with replaced capacitor"
