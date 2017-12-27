@@ -9,9 +9,13 @@ comments = true
 draft = false
 +++
 
+## A delay in proceedings
+
+In my [previous post](/post/where-is-my-soldering-iron/), I mentioned an ambitious plan to replace some capacitors in a faulty power supply for my PVR (Personal Video Recorder). With all the kerfuffle of the buildup to Christmas, I didn't get time to fix the power supply. I finally had some time on Boxing Day to get stuck into this small project.
+
 ## A slight change of plan
 
-In my [previous post](/post/where-is-my-soldering-iron/), I mentioned an ambitious plan to replace some capacitors in a faulty power supply for my PVR (Personal Video Recorder). The capacitors arrived the day after ordering - excellent service from [element14](http://au.element14.com/).
+The capacitors arrived the day after ordering - excellent service from [element14](http://au.element14.com/).
 
 But after going through the Beyonwiz forums further, I found that some users had replaced one faulty capacitor and got their PVR up and running again. Advice suggested replacing more capacitors to prevent further failure, but I have spares now and I wasn't overly confident on my soldering skills. It has been a long, long time.
 
