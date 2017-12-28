@@ -11,7 +11,7 @@ draft = false
 
 ## A delay in proceedings
 
-In my [previous post](/post/where-is-my-soldering-iron/), I mentioned an ambitious plan to replace some capacitors in a faulty power supply for my PVR (Personal Video Recorder). With all the kerfuffle of the buildup to Christmas, I didn't get time to fix the power supply. I finally had some time on Boxing Day to get stuck into this small project.
+In my [previous post](/post/2017-12-11-where-is-my-soldering-iron/), I mentioned an ambitious plan to replace some capacitors in a faulty power supply for my PVR (Personal Video Recorder). With all the kerfuffle of the buildup to Christmas, I didn't get time to fix the power supply. I finally had some time on Boxing Day to get stuck into this small project.
 
 ## A slight change of plan
 
