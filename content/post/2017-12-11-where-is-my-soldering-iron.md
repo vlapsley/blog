@@ -28,4 +28,4 @@ Parts $12, Delivery $15. Yeah, ok.
 
 Well, not quite yet. I'll post the results later. I'm still awaiting delivery of the capacitors, but hopefully later this week I can rave about my success.
 
-[1]: /img/beyonwiz_t3_psu.jpg "Beyonwiz T3 PSU"
+[1]: /img/2017-12-11-beyonwiz_t3_psu.jpg "Beyonwiz T3 PSU"
