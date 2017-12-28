@@ -1,12 +1,12 @@
 +++
 title = "2017 - The year in review"
-date = "2017-12-31"
+date = "2017-12-29"
 description = "2017 - The year in review."
 categories = ["review"]
-tags = ["review", "homelab", "minetest", "minecraft", "DIY", "rancher", "docker", "kubernetes", "coreOS", "ProxMox"]
+tags = ["review", "homelab", "minetest", "minecraft", "DIY", "rancher", "docker", "kubernetes", "coreos", "proxmox", "devops", "azure", "git"]
 toc = true
 comments = true
-draft = true
+draft = false
 +++
 
 ## Docker and Rancher, and Kubernetes, oh my!
@@ -29,8 +29,18 @@ I have played and developed for Minetest for around five years. I started with i
 
 In October, I decided to download a Minecraft trial to see what it was like compared to Minetest. Well, I was blown away by the game itself and the polish of the product. I haven't looked back and have been plowing hours into building up resources to eventually battle the Ender Dragon and win the game. Isabella is dead keen to play too, but we don't have a spare computer right now for her.
 
+## Innovation time
+
+At work during October/November, the IT Manager created "innovation time" - three hours a week for six weeks to present a proof of concept to the business on a new IT thing. I was included in the DevOps group, which is somewhat difficult to create a POC for.
+
+But we did end up creating a demo for source code version control using [Git](https://git-scm.com/) and [GitHub](https://github.com/). I led our group of four in learning Git/GitHub and we demonstrated git commits, branches, blame, revert, GitHub pull requests and merge conflicts. We put it all together at the end and presented an [Azure Resource Manager](https://azure.microsoft.com/en-au/features/resource-manager/) virtual server template stored in GitHub and provisioned with a single PowerShell command.
+
 ## Adventures with DIY
 
 I [replaced the clothesline](https://twitter.com/vlapsley/status/921921372607062016) in our backyard in October. It promptly started to rain five minutes after completing the install. C'est la vie.
 
 In December I [fixed the power supply](/post/2017-12-27-the-operation-was-a-success/) in our PVR.
+
+## One more thing...
+
+And in December I created this blog. Learnt a little AWS, HTML and CSS in the process.
