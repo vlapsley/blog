@@ -36,6 +36,6 @@ Not only was the operation a success, the patient survived too. The word "Bootin
 
 Little Audrey summed it up best: "Good job Daddy!" So flippin' proud of myself. DIY done right is very satisfying.
 
-[1]: /img/faulty_capacitor.jpg "Faulty capacitor"
-[2]: /img/fixed_psu.jpg "The fixed PSU with replaced capacitor"
-[3]: /img/t3_epg.jpg "The T3 PVR EPG screen after power supply repair"
+[1]: /img/2017-12-27-faulty_capacitor.jpg "Faulty capacitor"
+[2]: /img/2017-12-27-fixed_psu.jpg "The fixed PSU with replaced capacitor"
+[3]: /img/2017-12-27-t3_epg.jpg "The T3 PVR EPG screen after power supply repair"

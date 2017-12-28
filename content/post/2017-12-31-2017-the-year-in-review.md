@@ -15,7 +15,7 @@ Began the year 2017 trying to get [Kubernetes](https://kubernetes.io/) up and ru
 
 In July, I replaced the hypervisor on the homelab server with [Proxmox](https://www.proxmox.com/). Wow, what an awesome product. Easy to use, great features and very stable. Promptly tried the Tectonic Kubernetes cluster build and got it working! But alas, one of the worker nodes would fall over with not enough memory to run [Prometheus](https://prometheus.io/) monitoring and other services. Back to the drawing board.
 
-I researched an alternative and decided to build a [Rancher](https://rancher.com/) cluster. I had dabbled with Rancher in 2016 when learning some basic [Docker](https://www.docker.com/) functionality. In less than an hour with Proxmox and RancherOS I had a Rancher orchestration VM and 3 worker nodes built. Five minutes later I have a Hello World web page served with Nginx in Docker. I couldn't believe how easy this was to get working.
+I researched an alternative and decided to build a [Rancher](https://rancher.com/) cluster. I had dabbled with Rancher in 2016 whilst learning some basic [Docker](https://www.docker.com/) functionality. In less than an hour with Proxmox and RancherOS I had a Rancher orchestration VM and 3 worker nodes built. Five minutes later I have a Hello World web page served with Nginx in Docker. I couldn't believe how easy this was to get working.
 
 ## Minetest mapgen and mods
 
@@ -27,7 +27,7 @@ I created a [Minetest](https://www.minetest.net/) mapgen in C++ code and had it 
 
 I have played and developed for Minetest for around five years. I started with it because I was interested in [Minecraft](https://minecraft.net/) and decided to test an open source/free alternative first. Liked what I saw and kept playing Minetest.
 
-In October, I decided to download a Minecraft trial to see what it was like compared to Minetest. Well, I was blown away by the game itself and the polish of the product. I haven't looked back and have been plowing hours into building up resources to take on the Ender Dragon and win the game. Isabella is dead keen to play too, but we don't have a spare computer right now for her.
+In October, I decided to download a Minecraft trial to see what it was like compared to Minetest. Well, I was blown away by the game itself and the polish of the product. I haven't looked back and have been plowing hours into building up resources to eventually battle the Ender Dragon and win the game. Isabella is dead keen to play too, but we don't have a spare computer right now for her.
 
 ## Adventures with DIY
 
